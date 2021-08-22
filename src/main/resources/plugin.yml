@@ -1,0 +1,9 @@
+name: BetterTools
+version: ${project.version}
+main: bettertools.bettertools.BetterTools
+api-version: 1.17
+authors: [ OFENROHR100 ]
+description: A plugin that adds custom new tools to the game.
+commands:
+  Inventory:
+    description: Opens the a Inventory with the Tools in it.

@@ -1,0 +1,10 @@
+<20.08.2021>
+ - Added Explosive Shovel
+ - Added Inventory Command
+ - New onEnable screen
+
+<21.08.2021>
+ - Added custom Textures
+ - Edited the config.yml
+ - Added permission to the inventory command:
+   -> bettertools.inventory
