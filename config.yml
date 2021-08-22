@@ -1,0 +1,24 @@
+########>>> BetterTools <<<########
+# -> Author: OFENROHR100
+# -> Github: github.com/OFENROHR100/BetterTools
+Resourcepack: # Should a custom resourcepack be added to the server? 'true' for yes, 'false' for no.
+  true
+# Recipes
+Recipe: # Should this recipe be added to the game? 'true' for yes, 'false' for no.
+  Piratesword:
+    true
+  Katanasword:
+    true
+  Triplebow:
+    true
+  Explosivepickaxe:
+    true
+  Explosiveshovel:
+    true
+  Knife:
+    true
+  Emeraldpickaxe:
+    true
+# Knife options
+Knife:
+  Damagewithoutchestplate: 2 # The multiplier for the damage without a chestplate.
