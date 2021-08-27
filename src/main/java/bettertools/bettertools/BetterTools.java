@@ -88,9 +88,6 @@ public final class BetterTools extends JavaPlugin {
         if (config.get("Recipe.Explosiveshovel") == "true") {
             Bukkit.addRecipe(explosiveshovel());
         }
-        if (config.get("Resourcepack") == "true") {
-            getServer().getPluginManager().registerEvents(new JoinEvent(), this);
-        }
         getServer().getPluginManager().registerEvents(new usepiratesword(), this);
         getServer().getPluginManager().registerEvents(new usebow(), this);
         getServer().getPluginManager().registerEvents(new usekatana(), this);
@@ -99,6 +96,7 @@ public final class BetterTools extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new useEmeraldpicksaxe(), this);
         getServer().getPluginManager().registerEvents(new useexplosiveshovel(), this);
         getServer().getPluginManager().registerEvents(new InventoryClick(), this);
+        getServer().getPluginManager().registerEvents(new JoinEvent(), this);
         getCommand("Inventory").setExecutor(new InventoryCommand());
         getCommand("BetterToolsInventory").setExecutor(new InventoryCommand());
         CMP.setupCooldownP();
