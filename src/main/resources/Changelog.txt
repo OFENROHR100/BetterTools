@@ -8,3 +8,6 @@
  - Edited the config.yml
  - Added permission to the inventory command:
    -> bettertools.inventory
+   
+<27.08.2021>
+ - Edited custom Textures
