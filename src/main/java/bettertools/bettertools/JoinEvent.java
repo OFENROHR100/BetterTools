@@ -7,6 +7,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class JoinEvent implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
-        event.getPlayer().setResourcePack("https://www.dropbox.com/sh/jb2u5ehru4dxluq/AABHOwYionPMfFrwn0-pyB8qa?dl=1");
+        event.getPlayer().setResourcePack("https://www.dropbox.com/sh/rw9b6l2dsfwmtb2/AACET6rZGy3cVEZI6iRRG-nca?dl=1");
     }
 }
